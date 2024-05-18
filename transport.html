@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet"
+            type="text/css"
+            href="styles/site.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>TODO</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="head">
+        <picture class="logo">
+          <img src= "images/apple-harvest-logo.svg" alt="Aple harvest festival logo">
+        </picture>
+        <!--source:Instructor-->
+        <h1 class="head1">TransitGuide</h1>
+        <div>
+          <nav class="nav-bar  hidden" id ="navi-bar">
+            <ul class="nav-barr">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="events.html">Event</a></li>
+              <li><a href="shop.html">shop</a></li>
+              <li><a href="dine.html">Foodiefacts</a></li>
+              <li><a href="transport.html">TransitGuide</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="content_sidebar">
+      <main-content>
+          <picture class="shop_img">
+            <img src="images/tcat-.png" alt="bus">
+          </picture>
+          <!--source:(original work Winifred Agyei)-->
+          <h1>Get around with Tcat buses</h1>
+            <p>
+              Tompkins Consolidated Area Transit (TCAT) offers public bus transportation from all over the county. One-way fares are \$1.50 per adult.
+            <p>
+            <p> Cornell University students can ride without a fare on weekends and after 6pm with their student ID card.</p>
+              <h2>List of TCAT bus schedule</h2>
+              <dl>
+                <dt>Route 10: Mon-Fri</dt>
+                  <dd>
+                    <p>Cornell – Commons Shuttle</p>
+                    <p>Also Serving: Sage Hall, Boldt Hall, Milstein Hall, Goldwin Smith Hall, Stewart Ave</p>
+                  </dd>
+                  <dt>Route 11: Everyday</dt>
+                  <dd>
+                    <p>Ithaca College – Commons</p>
+                    <p>Also Serving: College Circle Apts., Challenge, South Hill Business Park, South Hill Elementary, Longview</p>
+                  </dd>
+                  <dt>Route 17: Everyday</dt>
+                  <dd>
+                    <p>Fall Creek – Commons</p>
+                    <p>Also Serving: TCAT Offices, W. Lincoln St., Cayuga St.</p>
+                  </dd>
+                  <dt>Route 21: Everyday</dt>
+                  <dd>
+                    <p>Trumansburg – Commons</p>
+                    <p>Also Serving: Ulysses, Jacksonville, GreenStar, Agway, Cornell, Commons</p>
+                  </dd>
+                </dl>
+                <p>Access full bus schedule for 2023 and Learn more about fares at:<a href="https://tcatbus.com/fare-pass-options">TCAT bus Website</a></p>
+                <button id="buttonA"  class="button">Read more...</button>
+
+                <h2>Parking</h2>
+                <picture class="shop_img">
+                  <img src="images/park.jpg" alt="parked cars ">
+                </picture>
+                <!--source:(original work Winifred Agyei)-->
+                <p>Garage parking is \$1.00 per hour in the garages. On-street parking is \$1.50 per hour during the week until 6pm.</p>
+                <p>For Additional downtown parking visit:<a href="https://www.cityofithaca.org/243/Parking">Downtown parking</a></p>
+                <p>
+                  <em>Residents and visitors can park in the Seneca, and Cayuga Street garages and walk to anywhere in Downtown Ithaca.</em>
+                </p>
+                <p><em> Please note the Green Garage is closed for construction.</em></p>
+              </main-content>
+                <div class="sidebar">
+                  <ul>
+                      <li><a href="https://tcatbus.com/fare-pass-options">TCAT Website</a></li>
+                      <li><a href="https://www.cityofithaca.org/243/Parking">Parking</a></li>
+                      <li><a href="index.html">FAQs</a></li>
+                  </ul>
+                  <!--source:Instructor-->
+                </div>
+
+              </div>
+              <footer class="footer">
+                <a id = 'heading' href="#" >Top</a>
+                <a href="https://www.instagram.com/downtownithaca/" target="_blank"><img src="images/st1.jpeg" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/downtownithaca" target="_blank"><img src="images/fb.jpeg" alt="Facebook">
+                </a>
+                <a href="https://www.linkedin.com/company/downtown-ithaca-alliance" target="blank"><img src="images/tt1.jpeg" alt="linkedin">
+                </a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fdowntownithaca" target="_blank"><img src="images/tt2.jpeg" alt="Twitter">
+                </a>
+              </footer>
+              <button class="toggle-button active" id="button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </button>
+            </div>
+
+        <div id="trans-modal" class="modal hidden">
+          <div id="modal-content">
+            <button class="buttonB close-btn">&times;</button>
+
+            <h2>List of TCAT bus schedule</h2>
+            <dl>
+              <dt>Route 10: Mon-Fri</dt>
+                <dd>
+                  <p>Cornell – Commons Shuttle</p>
+                  <p>Also Serving: Sage Hall, Boldt Hall, Milstein Hall, Goldwin Smith Hall, Stewart Ave</p>
+                </dd>
+                <dt>Route 11: Everyday</dt>
+                <dd>
+                  <p>Ithaca College – Commons</p>
+                  <p>Also Serving: College Circle Apts., Challenge, South Hill Business Park, South Hill Elementary, Longview</p>
+                </dd>
+                <dt>Route 17: Everyday</dt>
+                <dd>
+                  <p>Fall Creek – Commons</p>
+                  <p>Also Serving: TCAT Offices, W. Lincoln St., Cayuga St.</p>
+                </dd>
+                <dt>Route 21: Everyday</dt>
+                <dd>
+                  <p>Trumansburg – Commons</p>
+                  <p>Also Serving: Ulysses, Jacksonville, GreenStar, Agway, Cornell, Commons</p>
+                </dd>
+                <dt>Route 13: Everyday</dt>
+                <dd>
+                  <p> Fall Creek Also Serving: Commons, Stewart Park, Guthrie – Ithaca City Harbor, TCAT, Aldi, Ithaca High School, Lake St.,</p>
+                  <p>Hancock St., Cayuga St., Stewart Park [Weekdays Only:  and Shops at Ithaca Mall]</p>
+                </dd>
+                <dt>Route 14: Everyday</dt>
+                <dd>
+                  <p> Hospital–West Hill – Commons Also Serving: W. State Street, West Village, Cayuga Gardens Apts., </p>
+                  <p>Lehman School, Linderman Creek Apts., Overlook Apts., Conifer Village Apts</p>
+                </dd>
+                <dt>Route 15: Everyday</dt>
+                <dd>
+                  <p>Southside Shopper Also Serving: Commons, McGraw House, Titus Towers,</p>
+                  <p> Ithaca Plaza, Wegman’s, Walmart, Trader Joe’s, HomeGoods</p>
+                </dd>
+                <dt>Route 17: Everyday</dt>
+                <dd>
+                  <p>Fall Creek – Commons Also Serving: Guthrie – Ithaca City Harbor, </p>
+                  <p> TCAT Offices, W. Lincoln St., Cayuga St.CANCEL….</p>
+                </dd>
+                <dt>Route 20: Monday-Saturday</dt>
+                <dd>
+                  <p> Enfield – Commons Also Serving: Eco Village, Agway. Select trips serve Cornell. Saturday & Sunday: First trip is demand</p>
+                  <p> hiker drop-off at Bock Harvey Nature Preserve or the entrance to Upper Treman State Park. Route 67 picks </p>
+                  <p> up at the Lower Treman Stop (Elmira Rd @ Enfield Creek Bridge), allowing for a through hike</p>
+                </dd>
+                <dt>Route 30: Everyday</dt>
+                <dd>
+                  <p> Shops at Ithaca Mall – Cornell – Commons Also Serving: Cornell, Community Corners, Kendal, Tops (Lansing),</p>
+                  <p> YMCA, Feeney Way, College Avenue, Collegetown. Saturday and Sunday service to West Campus</p>
+                </dd>
+                <dt>Route 31: Monday-Fridays</dt>
+                <dd>
+                  <p> Etna – Cornell – Winston Court Also Serving: Winston Court, Community  Corners, Etna Rd., Highland, The Parkway, Hanshaw Rd.</p>
+                  <p>, Guthrie, Lower Creek Rd., Creekwood Apts., Hanshaw VIllage, Sapsucker Woods, Lab of Ornithology</p>
+                </dd>
+                <dt>Route 37: Everyday</dt>
+                <dd>
+                  <p>Lansing Town Hall
+                    Also Serving: Lansing Town Hall, Village Solars, Warren @ Convenient Care, Cornell–Tower Road</p>
+                  <p> Sage Hall, Commons.
+                    [See route 77 for weekend service to Warren Rd. and Village Solars]</p>
+                </dd>
+                <dt>Route 40: Everyday</dt>
+                <dd>
+                  <p> Freeville – Groton Also Serving: Groton H.S., Varna, Etna, Dairy Bar, Sage Hall, Ithaca Commons [See</p>
+                </dd>
+                <dt>Route 43: Everyday</dt>
+                <dd>
+                  <p> Dryden – TC3 (Select trips serve Freeville and Groton) Also Serving: </p>
+                  <p> South Dryden, Dryden Village, Varna, Vet School, Sage Hall, Commons</p>
+                </dd>
+              </dl>
+              <p>Access full bus schedule for 2023 and Learn more about fares at:<a href="https://tcatbus.com/fare-pass-options">TCAT bus Website</a></p>
+          </div>
+        </div>
+
+      <script src="scripts/jquery-3.7.1.js"></script>
+      <script src="scripts/hamburger.js"></script>
+      <script src="scripts/modal.js"></script>
+  </body>
+</html>
+<!--source:Text part of content, source:Instructor-->
